@@ -61,9 +61,13 @@ The supported methods and properties to use in Construct 3's scripting feature w
 - setEmptyRoomLiveTime (emptyRoomLiveTime)
 - setSuspendedPlayerLiveTime (suspendedPlayerLiveTime)
 - setUniqueUserId (unique)
+- setPlugins (plugins) 
 - reset ()
 - PlayFabAuthenticate (PlayFabID, PhotonToken)
 - GetPhotonAuthToken ()
+- SetMasterClient (actorNr)
+- SyncServerTime ()
+- UpdateRoundTripTime ()
 
 #### Conditions
 - isConnectedToNameServer  ()
@@ -110,6 +114,8 @@ The supported methods and properties to use in Construct 3's scripting feature w
 - AppStatsMasterPeerCount ()
 - AppStatsGameCount ()
 - PhotonToken ()
+- GetRoundTripTime ()
+- GetServerTime ()
 
 ### Guide
 The API documentation only shows the **methods** with its **parameters**, sometimes this is not enough to fully understand each use of the references.
