@@ -68,6 +68,7 @@ The supported methods and properties to use in Construct 3's scripting feature w
 - SetMasterClient (actorNr)
 - SyncServerTime ()
 - UpdateRoundTripTime ()
+- joinRandomOrCreateRoom (matchMyRoom, matchmakingMode, lobbyName, lobbyType, sqlLobbyFilter, roomName)
 
 #### Conditions
 - isConnectedToNameServer  ()
